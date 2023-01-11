@@ -1,23 +1,35 @@
 <template>
     <div class="contact">
+
         <h1>Contact Me</h1>
+
     </div>
 
     <div>
+
         <form action="">
+
             <label>First Name<input type="text" placeholder="Enter your Name"></label>
+
             <label>Surname<input type="text" placeholder="Enter your Surname"></label>
+
             <label>Contact Details<input type="text" placeholder="Enter your Contact"></label>
+
             <label>Email Address<input type="text" placeholder="Enter your Email Address"></label>
+
             <button>Submit</button>
+
         </form>
+
     </div>
+
 </template>
 
 <script>
+
     export default {
-        
     }
+    
 </script>
 
 <style scoped>
