@@ -85,7 +85,7 @@ export default {
                     date: 'November 2020 - February 2021',
                     specification: 'Working as a sales associate, gave me a better perspective of selling value & improved my negotiation skills for sure. I also learnt more about marketing in the industry, which gave me opportunity to apply what I learnt in my marketing module.'
                     }
-                ]
+                ],
                 education:[
                     {
                     institution: 'Excelsior High School',
