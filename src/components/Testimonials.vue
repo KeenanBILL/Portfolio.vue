@@ -9,7 +9,7 @@
 
         </div>
 
-        <div class="row container m-auto" >
+        <div class="row mx-5" >
 
             <div class="justify-content col-md-4 d-flex">
 
@@ -24,14 +24,16 @@
                                 <h5 class="card-title text-center">{{item.name}}</h5>
     
                                     <div class="line my-4"></div>
+                                        
+                                        <h3>{{item.position}}</h3>
     
-                                        <p class="card-text text-center">{{item.comments}}</p>
+                                            <p class="card-text text-center">{{item.comments}}</p>
+    
+                            </div>
     
                         </div>
-    
-                    </div>
-                </div>
 
+                </div>
 
             </div>
 
@@ -89,10 +91,14 @@
 </script>
 
 <style scoped>
-
-.card{
+.card-body{
     background-color: #90A955;
     height: 10%;
+}
+.card{
+    width: 95%;
+    height: 95%;
+    max-height: 670px;
 }
 .line{
     height: 6px;
