@@ -1,9 +1,11 @@
 <template>
-    <div class="contact">
+    <div class="post-heading text-center">
 
-        <h1>Contact Me</h1>
+        <h3 class="display-4 fw-bold">Contact</h3>
 
-    </div>
+    <div class="line my-4"></div>
+
+</div>
 
     <div>
 
@@ -49,7 +51,7 @@ button{
     width: 25%;
     height: 30px;
     border-radius: 20px;
-    background: rgb(0, 200, 77);
+    background: #90A955;
     font-weight: bold;
 }
 label, input{
@@ -59,5 +61,7 @@ label{
     margin-bottom: 20px;
     font-weight: bold;
 }
+
+
 
 </style>

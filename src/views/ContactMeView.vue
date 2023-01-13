@@ -15,5 +15,11 @@ import ContactForm from '@/components/ContactForm.vue';
 </script>
 
 <style scoped>
+.line{
+    height: 6px;
+    width: 30%;
+    background: #FBC403;
+    display: inline-block;
+}
 
 </style>

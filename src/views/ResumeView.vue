@@ -1,13 +1,12 @@
 <template>
-    <Projects/>
+    <Resume/>
 </template>
 
 <script>
-import Projects from '../components/Projects.vue';
-
+import Resume from '../components/Resume.vue'
     export default {
         components: {
-            Projects
+            Resume
         }
     }
 </script>
