@@ -1,6 +1,8 @@
 <template>
 
-    <div class="row">
+    <footer>
+
+    <div class="row fixed-bottom">
 
         <div class="col-lg-12 d-flex align-items-center">
 
@@ -8,19 +10,21 @@
 
                 <div class="social-links align-items-center p-3">
 
-            <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.facebook.com/keenanadrian.olivier" class="me-2"><i class="bi bi-facebook"></i></a>
 
-            <a href="#" class="me-2"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/keenan_olivier_" class="me-2"><i class="bi bi-instagram"></i></a>
 
-            <a href="#" class="me-2"><i class="bi bi-linkedin"></i></a>
+            <a href="https://linkedin.com/in/keenan-adrian-olivier-47a2b5212" class="me-2"><i class="bi bi-linkedin"></i></a>
 
-            <a href="#" class="me-2"><i class="bi bi-github"></i></a>
+            <a href="https://github.com/KeenanBILL/KA_Billy.git" class="me-2"><i class="bi bi-github"></i></a>
 
             </div>
 
         </div>
 
     </div>
+
+</footer>
 
 </template>
 

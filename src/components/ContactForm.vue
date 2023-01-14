@@ -9,15 +9,17 @@
 
     <div>
 
-        <form action="">
+        <form action="https://formspree.io/f/xeqdpbpb" method="POST">
 
-            <label>First Name<input type="text" placeholder="Enter your Name"></label>
+            <label>First Name<input name="fname" type="text" placeholder="Enter your Name" required></label>
 
-            <label>Surname<input type="text" placeholder="Enter your Surname"></label>
+            <label>Surname<input name="sname" type="text" placeholder="Enter your Surname" required></label>
 
-            <label>Contact Details<input type="text" placeholder="Enter your Contact"></label>
-
-            <label>Email Address<input type="text" placeholder="Enter your Email Address"></label>
+            <label>Company<input name="cname" type="text" placeholder="Company" required></label>
+            
+            <label>Email Address<input name="email" type="email" placeholder="Enter your Email Address" required></label>
+            
+            <label><textarea name="message" type="message" placeholder="Comments" required></textarea></label>
 
             <button>Submit</button>
 
@@ -41,11 +43,16 @@ form input{
     flex-direction: row;
     margin: auto;
     justify-content: space-between;
-    width: 30%;
+    width: 60%;
     height: 30px;
-    border: solid 2px;
+    border: solid 2px #31572C;
     border-radius: 20px;
     text-align: center;
+}
+textarea{
+    border:#31572C;
+    border-radius: 20px;
+    width: 60%;
 }
 button{
     width: 25%;
@@ -53,6 +60,7 @@ button{
     border-radius: 20px;
     background: #90A955;
     font-weight: bold;
+    border: #31572C;
 }
 label, input{
     display: block;
@@ -62,6 +70,11 @@ label{
     font-weight: bold;
 }
 
-
+line{
+    height: 6px;
+    width: 30%;
+    background: #FBC403;
+    display: inline-block;
+}
 
 </style>

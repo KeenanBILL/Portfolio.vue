@@ -17,9 +17,9 @@
 
                     <div v-for="item in projects" :key="item">
 
-                        <div class="col-sml-4 d-flex justify-content-center pb-3">
+                        <div class="col-lg d-flex justify-content-center pb-3">
     
-                            <div class="card">
+                            <div class="card mb-5">
     
                                     <img :src="item.img" class="card-img-top">
     
@@ -27,9 +27,9 @@
     
                                         <h5 class="card-title">{{item.name}}</h5>
     
-                                        <a :href='item.link' class="proj-btn mr-2"><i class="fas fa-link"></i> Hosted Site</a>
+                                        <a :href='item.link' class="proj-btn mr-2"><i class="bi bi-globe2"></i></a>
     
-                                    <a :href='item.github' class="proj-btn"><i class="fab fa-github"></i> Github</a>
+                                    <a :href='item.github' class="proj-btn"><i class="bi bi-github"></i></a>
     
                                 </div>
     
@@ -79,6 +79,12 @@ export default {
                 img: "https://i.postimg.cc/9FwFJWc7/Project5.png",
                 github: "https://github.com/KeenanBILL/Calculator", 
                 link: "https://kaocalculator.netlify.app/"
+            },
+            {
+                name: 'Grid Example',
+                img: "https://i.postimg.cc/GpprYhMm/Grid.png",
+                github: "https://github.com/KeenanBILL/GridExample", 
+                link: "https://golden-buttercream-a1eb66.netlify.app/"
             }
         ]
         }
@@ -89,7 +95,12 @@ export default {
 
 <style scoped>
 .card{
-    max-width: 60%;
+    max-width: 75%;
+    border-radius: 15px;
+}
+
+.card-body{
+    border-radius: 15px;
 }
 
 .line{
@@ -99,4 +110,25 @@ export default {
     display: inline-block;
 }
 
+.proj-btn{
+    border: 2px solid transparent;
+    padding: 10px;
+    background: #90A955;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 40%;
+    color: #31572c;
+    margin-left: 10px;
+}
+
+.proj-btn a{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.proj-btn:hover{
+    color: #FBC403;
+}
 </style>

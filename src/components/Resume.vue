@@ -47,15 +47,15 @@
     
     <div class="row mx-5">
     
-        <div class="col-sml-4 d-flex justify-content">
+        <div class="col-sml-4 d-flex justify-content-center">
     
             <div v-for="item in education" :key="item">
     
-                <div class="card m-2 cb1">
+                <div class="card m-3 mb-5 cb1">
     
-                    <img :src="item.img" class="card-img-top">
+                    <img :src="item.img" class="card-img-top justify-content-center">
     
-                        <div class="card-body">
+                        <div class="card-body mb-5">
     
                             <h5 class="card-title text-center">{{item.institution}}</h5>
     
@@ -95,6 +95,7 @@
                         },
                         {
                         institution: 'R.B.Schroeder & Sons',
+                        img:"https://i.postimg.cc/Y9JF4Pzb/RB-SCHROEDER-SONS-1.jpg",
                         date: 'November 2020 - February 2021',
                         specification: 'Working as a sales associate, gave me a better perspective of selling value & improved my negotiation skills for sure. I also learnt more about marketing in the industry, which gave me opportunity to apply what I learnt in my marketing module.'
                         }
@@ -131,6 +132,12 @@
     width: 95%;
     height: 95%;
     max-height: 670px;
+    border-radius: 15px;
+    align-items:center;
+}
+
+.card-body{
+    border-radius: 15px;
 }
 
 img{

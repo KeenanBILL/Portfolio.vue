@@ -23,14 +23,8 @@
                 
                 <hr>
     
-                    <p>I am always striving to learn new skills & over the past three years studying, working part-time has taught me valuable skills, that I am able to incorporate in my career. I am a God fearing individual that is hungry for happiness from others. Making others happy is what drives me to be ambitious & devoted to be an advocate of change regardless if I make a minor impact. When storms and trails come, I will try my best to be there to lift your head up. Doing this I hope people also acquire the value of resilience in their life.
+                    <p>I am always striving to learn new skills and over the past three years studying, working part-time has taught me valuable skills, that I am able to incorporate in my career. I am a God fearing individual that is hungry for happiness from others. Making others happy is what drives me to be ambitious & devoted to be an advocate of change regardless if I make a minor impact. When storms and trails come, I will try my best to be there to lift your head up. Doing this I hope people also acquire the value of resilience in their life.
                 </p>
-    
-                <button class="btn1">
-    
-                    <a href="#">Download CV</a>
-    
-                </button>
     
             </div>
     

@@ -1,5 +1,5 @@
 <template>
-    <div id="testimonials" class="container mt-3 mb-5" style="display: inline-block;">
+    <div id="testimonials" class="container mt-3 mb-5">
 
         <div class="post-heading text-center">
 
@@ -9,34 +9,34 @@
 
         </div>
 
-        <div class="row mx-5" >
-
-            <div class="justify-content col-md-4 d-flex">
-
+        <div class="row mx-5">
+    
+            <div class="col-sml-4 justify-content-center">
+        
                 <div v-for="item in testimonials" :key="item">
-
-                    <div class="card m-2 cb1 ">
-    
+        
+                    <div class="card m-2 cb1">
+        
                         <img :src="item.img" class="card-img-top">
-    
-                            <div class="card-body">
-    
+        
+                            <div class="card-body d-flex flex-wrap">
+        
                                 <h5 class="card-title text-center">{{item.name}}</h5>
-    
+        
                                     <div class="line my-4"></div>
-                                        
-                                        <h3>{{item.position}}</h3>
-    
-                                            <p class="card-text text-center">{{item.comments}}</p>
-    
-                            </div>
-    
+        
+                                        <h6>{{item.position}}</h6> 
+        
+                                        <p class="card-text text-center">{{item.comments}}</p>
+        
                         </div>
-
+        
+                    </div>
+                    
                 </div>
-
+        
             </div>
-
+        
         </div>
 
     </div>      
@@ -78,9 +78,9 @@
                     comments: "Keenan is a hard working young man with a big heart. He is organized, efficient and extremely competent with excellent rapport with people of all ages. He communication skills are excellent no matter if you are talking about verbal or written. I highly recommend Keenan Olivier for any position that she may pursue. He would be a valuable asset to your company."
                     },
                     {
-                    name: 'Caron Olivier',
-                    img: "https://i.postimg.cc/sDR9TWK7/caron-o.jpg",
-                    position: 'Colleague',
+                    name: 'Ryan Thomas',
+                    img: "https://i.postimg.cc/j5t7bfvS/ryan-thomas.jpg",
+                    position: 'Lecturer',
                     comments: "Keenan has shown lot of dedication and strives to present himself in the most professional & ethical manner when preparing tasks and presentations. I admire his determination to do the right thing and speak the truth at his best of his ability."
                     }
                 ]
@@ -91,20 +91,29 @@
 </script>
 
 <style scoped>
-.card-body{
-    background-color: #90A955;
-    height: 10%;
-}
+
 .card{
-    width: 95%;
-    height: 95%;
-    max-height: 670px;
+    border-radius: 15px;
+    align-items: center;
 }
+
+.card-body{
+    border-radius: 15px;
+}
+
 .line{
     height: 6px;
     width: 30%;
     background: #FBC403;
     display: inline-block;
+}
+
+img{
+    margin: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    align-content: center;
 }
 
 </style>
