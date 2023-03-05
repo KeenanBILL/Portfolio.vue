@@ -43,17 +43,17 @@
 
                 <i class="bi bi-phone mx-3"></i>
 
+            </div>
+
+                <div class="text mx-3">
+
+                    <h3 class="fs-5">Phone</h3>
+
+                    <p class="text-muted mx-3">+27 73 849 2052</p>
+
+                </div>
+
         </div>
-
-        <div class="text mx-3">
-
-        <h3 class="fs-5">Phone</h3>
-
-        <p class="text-muted mx-3">+27 73 849 2052</p>
-
-        </div>
-
-    </div>
 
         <div class="contact-item d-flex mx-3">
 
@@ -61,17 +61,17 @@
 
                 <i class="bi bi-geo-alt mx-3"></i>
 
+            </div>
+
+                <div class="text mx-3">
+
+                    <h3 class="fs-5 mb-3 px-3">Home Address</h3>
+
+                    <p class="text-muted mb-5">87 Vlamboom Road, Bonteheuwel, 7764</p>
+
+                </div>
+
         </div>
-
-        <div class="text mx-3 mb-3">
-
-            <h3 class="fs-5 mx-3 mb-3">Location</h3>
-
-                <p class="text-muted mx-3 mb-5">87 Vlamboom Road, Bonteheuwel, 7764</p>
-
-        </div>
-
-    </div>
 
     </div>
 
@@ -83,6 +83,9 @@
 </script>
 
 <style scoped>
+h1,h3, h4{
+    font-family: 'Optien';
+}
 
 .btn1{
     text-decoration: none;

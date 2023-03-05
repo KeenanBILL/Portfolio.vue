@@ -127,22 +127,29 @@
     </script>
 
 <style scoped>
+h1, h3, h4{
+    font-family: 'Optien';
+}
 
 .card{
     width: 95%;
-    height: 95%;
-    max-height: 670px;
+    height: 25rem;
     border-radius: 15px;
     align-items:center;
+    max-height: fit-content;
 }
-
 .card-body{
     border-radius: 15px;
+    
 }
 
 img{
     max-width: 200px;
     max-height: 200px;
+    height: 195px;
 }
 
+.card-img-top{
+    height: 180px;
+}
 </style>

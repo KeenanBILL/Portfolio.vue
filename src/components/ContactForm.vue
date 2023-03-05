@@ -37,6 +37,9 @@
 </script>
 
 <style scoped>
+h1,h3, h4{
+    font-family: 'Optien';
+}
 
 form input{
     display: flex;

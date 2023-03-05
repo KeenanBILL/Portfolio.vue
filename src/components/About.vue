@@ -38,6 +38,10 @@
     
     
     <style>
+
+    h1,h3, h4{
+        font-family: 'Optien';
+    }
     
     .line{
         height: 6px;

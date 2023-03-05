@@ -94,6 +94,9 @@ export default {
 </script>
 
 <style scoped>
+h1,h3, h4{
+    font-family: 'Optien';
+}
 .card{
     max-width: 75%;
     border-radius: 15px;
